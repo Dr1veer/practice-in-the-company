@@ -1,0 +1,22 @@
+body {
+    background: #666;
+    height: 100%;
+}
+.field {
+    border: 3px solid #fff;
+    background-color: #8fbc8f;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    box-sizing: content-box;
+}
+.snake {
+    border: 3px solid #922222;
+    background-color: #b22222;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    box-sizing: border-box;
+}
