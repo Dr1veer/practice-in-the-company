@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper ">
+        <div class="wrapper__main">
+            <div class="header">
+                <a href="#" class="header__logo">
+                    <img src="img/icons/logo.png" alt="#">
+                    <h1 class="header__h1">Best Films</h1>
+                </a>
+                <div>
+                    <p class="favourite-btn">Избранное</p>
+                </div>
+                
+            </div>
+            <div class="container wrapper-first" id="idContainer">
+                <!--    
+                <div class="film">
+                    <img src="img/pictures/panda.jpg" alt="#" class="film__img">
+                    <p class="film__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sapiente animi inventore, dicta quis, reiciendis culpa perferendis tempore adipisci quasi, dolores vel qui laboriosam in nulla est fuga quo magnam.
+                    </p>
+                    <p class="film__btn-edit">Редактировать</p>
+                    <div class="film__favourite">
+                        <img src="img/icons/favorite.png" alt="#" class="film__favourite_img">
+                    </div>
+                    <div class="film__delete"></div>
+                </div>
+                <div class="film">
+                    <img src="img/pictures/panda.jpg" alt="#" class="film__img">
+                    <p class="film__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sapiente animi inventore, dicta quis, reiciendis culpa perferendis tempore adipisci quasi, dolores vel qui laboriosam in nulla est fuga quo magnam.
+                    </p>
+                    <p class="film__btn-edit">Редактировать</p>
+                    <div class="film__favourite">
+                        <img src="img/icons/favorite.png" alt="#" class="film__favourite_img">
+                    </div>
+                    <div class="film__delete"></div>
+                </div>
+                <div class="film">
+                    <img src="img/pictures/panda.jpg" alt="#" class="film__img">
+                    <p class="film__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sapiente animi inventore, dicta quis, reiciendis culpa perferendis tempore adipisci quasi, dolores vel qui laboriosam in nulla est fuga quo magnam.
+                    </p>
+                    <p class="film__btn-edit">Редактировать</p>
+                    <div class="film__favourite">
+                        <img src="img/icons/favorite.png" alt="#" class="film__favourite_img">
+                    </div>
+                    <div class="film__delete"></div>
+                </div>
+                -->
+                
+                
+                
+                 
+            </div>
+            <div class="add-film">Добавить фильм</div>
+        </div>
+    </div>
+        <!--favorite films-->
+    <div class="container wrapper-second wr-passive" id="idContainer"></div>
+
+    
+    <div class="edit" id='edit1'>
+        <p class="edit__btn" id="btnEditImg" >Изменить картинку</p>
+        <p class="edit__btn" id="btnEditText">Изменить текст</p>
+        <div class="edit__exit" id="editExit1"></div>
+    </div>
+
+    <div class="edit edit_2" id="edit2">
+        <p class="edit__head">Введите url адрес изображения</p>
+        <input type="text" class="edit__input" placeholder="https://...">
+        <p class="edit__btn" id="btnEditImgConfirm" >Изменить картинку</p>
+        <div class="edit__exit" id="editExit2"></div>
+    </div>
+
+    <div class="edit edit_2" id="edit3">
+        <p class="edit__head">Введите текст</p>
+        <textarea class="edit__big-input" cols="10" rows="5" placeholder="Описание фильма..."></textarea>
+        <div class="edit__exit" id="editExit3"></div>
+        <p class="edit__btn" id="btnEditTextConfirm" >Внести изменения</p>
+    </div>
+
+    <div class="edit add-film-box" id="addFilmBox">
+        <p class="edit__head">Введите url адрес фильма</p>
+        <input id="addFilmValue1" type="text" class="edit__input" placeholder="https://...">
+        <p class="edit__head">Введите url адрес изображения</p>
+        <input id="addFilmValue2" type="text" class="edit__input" placeholder="https://...">
+        <p class="edit__head">Напишите описание фильма</p>
+        <textarea id="addFilmValue3" class="edit__big-input" cols="10" rows="5" placeholder="Описание фильма..."></textarea>
+        <div class="edit__exit" id="addExit"></div>
+        <p class="edit__btn" id="btnAddFilmConfirm">Добавить фильм</p>
+    </div>
+
+    <footer class="footer">
+        <div class="wrapper wrapper__foot">
+            <p class="footer__text">
+                Это подвал сайта
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"> </script>
+</body>
+</html>
